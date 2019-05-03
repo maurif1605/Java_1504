@@ -108,11 +108,279 @@ Os métodos podem iniciar com qualquer letra minúscula, não podem possuir acen
 
 Ex 12.
 
+```
+
+4. EstaVazio
+
+```
+
+Ex 13. 
+
+```
+
+13	Objeto é qualquer coisa que podemos dar uma entidade, o objeto passa a existir quando possui uma classe definindo, 
+ele deixa de existir quando a classe deixa de existir no código.
+
+```
+
+Ex 14.
+
+```
+
+14	O comando new é utilizado para criar uma nova instância de uma determinada classe.
 
 
+```
+
+Ex 15. 
+
+```
+
+Criam objetos em memória, são obrigatórios e necessitam ser declarados. Tem objetivo de controlar se o 
+objeto já foi declarado ou não. Seu nome deve ter a primeira letra maiuscula. 
+
+Ex: 
+class Pessoa {
+   String tipo = "";
+   public Pessoa(String tipo){
+      this.tipo = tipo; //Aqui, o this.tipo representa a variavel que esta fora do escopo, ou seja, o que recebemos como argumento
+                             //é passado para a variavel de instancia.
+   }
+   public String getTipo(){
+      return tipo;
+   }
+}
+
+```
+
+Ex 16. 
+
+```
+
+Será um construtor com parametros padrão 
+
+```
+
+Ex 17. 
+
+```
+
+17	public class Aluno{
+
+}
+public Aluno(){
+
+}
+
+```
+
+Ex 18. 
+
+```
+
+A idéia do encapsulamento é proteger o código. O cliente não precisa saber como é feito, 
+ele só precisa saber que é feito aquele procedimento.
+
+- Encapsulamento
+
+O ato de empacotar ao mesmo tempo dados e objetos é denominado encapsulamento. O objeto esconde seus dados de outros objetos e permite que os dados sejam acessados por intermédio de seus próprios métodos. Isso é chamado de ocultação de informações (information hiding).
+
+O encapsulamento protege os dados do objeto do uso arbitrário e não-intencional.
+O encapsulamento é o resultado (ou ato) de ocultar do usuário os detalhes da implementação de um objeto.
+O encapsulamento é importante porque separa a maneira como um objeto se comporta da maneira como ele é implementado.
+A definição de como implementar os conhecimentos ou ações de uma classe, sem informar como isto é feito.
+
+```
+
+Ex 19. 
+
+```
+
+19	Uma declaração com o modificador public pode ser acessada de qualquer lugar e por qualquer entidade que possa 
+visualizar a classe a que ela pertence.
+
+```
+
+Ex 20. 
+
+```
+
+20	Os membros da classe definidos como não podem ser acessados ou usados por nenhuma outra classe. Esse modificador 
+não se aplica às classes, somente para seus métodos e atributos. Esses atributos e métodos também não podem ser 
+visualizados pelas classes herdadas.
+
+```
+
+Ex 21.
+
+```
+
+21	O encapsulamento é aplicado para que possamos acessar a classe sem conflitos com outras, também o código fica 
+isolado dos outros podendo ser modificado a qualquer momento sem afetar o restando do código.
+
+```
+
+Ex 22. 
+
+```
+
+22	Método getter é utilizado para recuperar alguma informação, geralmente utilizado para trazer informação de algum atributo, 
+sem ter que utilizar o atributo explicitamente. Então chamamos através de métodos.
+
+```
+
+Ex 23. 
+
+```
+
+Método setter é utilizado para setar um valor dentro de um objeto, de uma variável.
+
+```
+
+Ex 24. 
+
+```
+
+1- Nome da classe
+2- atributo
+3 – métodos
+
+```
+
+Ex 25. 
+
+```
+Modificador, Nome, Tipo. Exemplo: -Nome: String
+
+```
 
 
+Ex 26.
 
+```
+
+Modificador, nome do método (atributo que vai ser aplicado o método) ()
+
+```
+
+Ex 27. 
+
+```
+
+O construtor é diferenciado pois ele tem  ”<<constructor>>” no metodo. Exemplo: <<contructor>> TesteCirculo(Raio: double)
+
+```
+
+Ex 28. 
+
+```
+
+Publico, -Privado, ~ Default, # protegido. Exemplo: Classe Pessoa. Atributo: -Nome: int, método: #definirPeso(): void
+
+```
+
+Ex 29. 
+
+```
+
+  Cliente
+______________
+
+- Nome: String
+- Email: String
+- Telefone: Int
+______________
+
++ getNome(): String 
++ setNome(Nome : String): void
+______________
+
+``` 
+
+Ex 30. 
+
+```
+
+public class Cliente{
+  private String Nome;	
+	private String Email;
+  private String Telefone;
+
+public String getNome(){
+	return Nome;
+	}
+	public void setNome (String Nome){
+	this.Nome = Nome;
+	}
+}
+
+```
+
+Ex 31. 
+
+```
+
+public class Produto{
+	private String nome;
+	public String getNome(){
+	return nome;
+	}
+	public void setNome(String nome){
+	this.nome = nome;
+}
+}
+public class Password{
+	private String value;
+	public Password (String value){ //contrutor n tem retorno	
+	}
+	public boolean isEqual (Password p){
+	return false;
+	}
+	public String getValue(){
+	return value;
+	}
+}
+public class Animal{
+	private boolean alive;	
+	public bollean isAlive {	
+	return false;	
+	}	
+	private void die(){	
+	}	
+}
+
+
+```
+
+Ex 32. 
+
+```
+
+```
+
+Ex 33. 
+
+``` 
+
+Um diagrama de objetos UML representa uma instância específica de um diagrama de classes em um determinado momento. 
+Quando representado visualmente, você verá muitas semelhanças ao diagrama de classes. Um diagrama de objetos incide 
+sobre os atributos de um conjunto de objetos, e como eles se relacionam entre si.
+
+```
+
+Ex 37. 
+
+```
+
+Error:(14, 12) java: name has private access in cat - name tem acesso privado em cat
+
+Solução: Mudar a variável de privado para publico
+
+Error:(8, 8) java: class Main is public, should be declared in a file named Main.java - A classe Main é pública, deve ser declarada em um arquivo chamado Main.java
+
+Solução: Declarar a variável Main em outra classe
+
+```
 
 
 
