@@ -1,0 +1,130 @@
+Ex 01.
+
+```
+
+Objeto em programação pode ser definido por seus atributos e por seus métodos. 
+São a parte fundamental para a elaboração de um sistema e devendo, cada objeto, 
+mesmo tendo os mesmos atributos e métodos de outro objeto, ser diferente em alguma característica.		
+
+```
+
+Ex. 02
+
+```
+
+Características: modelo, tamanho, número de portas. Comportamento: Acelerar, virar, bater
+
+```
+
+Ex 03.
+
+```
+
+Características são chamados de classes e comportamento de métodos
+
+```
+
+Ex 04.
+
+```
+
+Tem como objetivo reduzir a complexidade no desenvolvimento de software, 
+aumentar sua produtividade, facilitar a reutilização do código, 
+diminuindo o tempo de desenvolvimento, bem como o número de linhas de código
+
+```
+
+Ex 05
+
+```
+
+É utilizada para a definição de entidades do mundo real. 
+Sendo onde são criadas as classes. Essas entidades são consideradas tudo que é real, 
+tendo como consideração as suas características e ações.
+
+```
+
+Ex 06. 
+
+```
+
+6	Uma classe é o agrupamento de objetos com a mesma estrutura de dados e comportamento, 
+ou seja, classe são as descrições dos objetos
+
+```
+
+Ex 07.
+
+```
+
+Inicia-se com uma letra maiúscula e deve-se evitar caracteres que não fazem parte 
+da linguagem ASCII (caracteres de língua de origem latina, como caracteres acentuados),
+semdo assim, é incomum classes que contenham números ou caracteres especiais em seu nome.
+
+Ex: NomeDaClasse, CarroAzul, KombiBranca
+
+```
+
+Ex 08.
+
+```
+
+Opção 4 – CarroElétrico
+
+```
+
+Ex 09.
+
+``` 
+Atributos variaveis:
+
+Podem começar com qualquer letra e os caracteres $ ou _ , 
+porém não podem começar com número. 
+
+Ex: CorDaCasa
+
+Atributos constantes:
+Deve-se escrever com letra maiúscula assim e para separar as palavras devemos utilizar underscore ou underline.
+
+Ex: PARAR_DE_EXECUTAR, TAMANHO...
+
+```
+
+Ex 10. 
+
+```
+
+Opção 2 – CorDeFundo
+
+```
+
+Ex 11.
+
+```
+
+Os métodos podem iniciar com qualquer letra minúscula, não podem possuir acentos e não podem começar com números.
+
+```
+
+Ex 12.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
