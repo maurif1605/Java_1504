@@ -283,18 +283,6 @@ Ex 29.
 
 ```
 
-  Cliente
-______________
-
-- Nome: String
-- Email: String
-- Telefone: Int
-______________
-
-+ getNome(): String 
-+ setNome(Nome : String): void
-______________
-
 ``` 
 
 Ex 30. 
